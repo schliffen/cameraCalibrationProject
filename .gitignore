@@ -1,0 +1,13 @@
+CMakeCache.txt
+CMakeFiles
+Makefile
+cmake_install.cmake
+install_manifest.txt
+CalibrateCamera
+*/cmake-build-debug/*
+*.bin
+*.mp4
+*.jpg
+*.idea
+*.weights
+

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings>
+  <Setting Key="CalibrationViewModel_linesRealPointsList" Value="1493,687,1613,697,511,858,859,958,1754,609,1633,692,2,650,169,678,586,601,377,407,1786,401,1904,411,1653,397,1876,376,1211,383,1103,379,1328,386,1440,388,596,595,1210,383,1440,388,856,622,1545,393,1157,655,1784,401,1491,674" />
+  <Setting Key="CalibrationViewModel_LinesDistanceList" Value="1.5;3.3;6;3.3;37;3.3;19;3.3;3.3;45;45;45;48" />
+  <Setting Key="VanishingPointViewModel_ParallelLinesRealPointsList" Value="1787,401,13,825,1904,408,104,969,567,600,1498,683,1571,654,621,578" />
+  <Setting Key="CameraCalibrator_ProjectionMatrix" Value="1951.98803710938;-2048.27124023438;-251.203033447266;1086258.875;254.866516113281;145.813903808594;-1329.68872070313;5749875;0.894359230995178;0.401899933815002;-0.196463704109192;849.553588867188" />
+  <Setting Key="SpeedEstimatorModel_NumOfInterstedTrackedObject" Value="10" />
+</Settings>
