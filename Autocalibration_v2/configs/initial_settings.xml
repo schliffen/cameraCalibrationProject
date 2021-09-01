@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<opencv_storage>
+<Settings>
+  <!-- path to the video file and video setting-->
+  <video_setting_path>"../sampleVideo/v7/067a1d15-41e1-4252-a02b-a2e863c58bf5_j.json"</video_setting_path>
+  <video_file_path>"../sampleVideo/v7/067a1d15-41e1-4252-a02b-a2e863c58bf5_v.mp4"</video_file_path>
+  <radar_trigger_frame_path>"../sampleVideo/v1/9dc19da7-c0ba-477d-9f1c-084823d7598d_s.jpg"</radar_trigger_frame_path>
+  <!--  path to the test videos!  -->
+  <test_video_setting_path>"/home/ai/Projects/sampleVideos/FLORL_OR63_2021-08-03T06_20_56_316_MAX_SPEED/b35e8646-56fb-4c9a-aa28-b7077573906b_j.json"</test_video_setting_path>
+  <test_video_file_path>"/home/ai/Projects/sampleVideos/FLORL_OR63_2021-08-03T06_20_56_316_MAX_SPEED/b35e8646-56fb-4c9a-aa28-b7077573906b_v.mp4"</test_video_file_path>
+
+  <homography_matrix_path>"../configs/usa_homography_matrix.txt"</homography_matrix_path>
+
+
+  <net_cfg_path>"../configs/detector.cfg"</net_cfg_path>
+  <net_weights_path>"../configs/detector.weights"</net_weights_path>
+  <net_class_names_path>"../configs/labels.names"</net_class_names_path>
+  <train_target_position_path>"../configs/train_target_Vehicle_position.txt"</train_target_position_path>
+  <test_target_position_path>"../configs/test_target_Vehicle_position.txt"</test_target_position_path>
+  <!-- Projection matrix will save here -->
+  <estimated_projection_path>"../configs/out_projection_mat.txt"</estimated_projection_path>
+
+  <!-- How many frames to use, for calibration. -->
+  <Calibrate_NrOfFrameToUse>25</Calibrate_NrOfFrameToUse>
+  <!-- Consider only fy as a free parameter, the ratio fx/fy stays the same as in the input cameraMatrix. 
+	   Use or not setting. 0 - False Non-Zero - True-->
+  <Calibrate_FixAspectRatio> 1 </Calibrate_FixAspectRatio>
+  <!-- If true (non-zero) tangential distortion coefficients  are set to zeros and stay zero.-->
+  <Calibrate_AssumeZeroTangentialDistortion>1</Calibrate_AssumeZeroTangentialDistortion>
+  <!-- If true (non-zero) the principal point is not changed during the global optimization.-->
+  <Calibrate_FixPrincipalPointAtTheCenter> 1 </Calibrate_FixPrincipalPointAtTheCenter>
+
+</Settings>
+</opencv_storage>
